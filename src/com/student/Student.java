@@ -57,21 +57,21 @@ public class Student {
     public void setGrades(Map <String, String> grades) {this.grades = grades;}
 
     public void displayStudentDetails() {
-        System.out.println("\nStudent ID: " + studentId);
-        System.out.println("Full Name: " + fullName);
-        System.out.println("Date of Birth: " + dob);
-        System.out.println("Email: " + email);
-        System.out.println("Phone Number: " + phoneNumber);
-        System.out.println("Address: " + address);
-        System.out.println("Parent's Name: " + parentName);
-        System.out.println("Parent's Phone Number: " + parentPhoneNumber);
-        System.out.println("Courses Enrolled: " + coursesEnrolled);
-        System.out.println("Enrollment Date: " + enrollmentDate);
+        System.out.println("\nStudent ID                  : " + studentId);
+        System.out.println("Full Name                   : " + fullName);
+        System.out.println("Date of Birth               : " + dob);
+        System.out.println("Email                       : " + email);
+        System.out.println("Phone Number                : " + phoneNumber);
+        System.out.println("Address                     : " + address);
+        System.out.println("Parent's Name               : " + parentName);
+        System.out.println("Parent's Phone Number       : " + parentPhoneNumber);
+        System.out.println("Courses Enrolled            : " + coursesEnrolled);
+        System.out.println("Enrollment Date             : " + enrollmentDate);
 
         // Display grades as a formatted list
         System.out.println("Grades:");
         for (Map.Entry<String, String> entry : grades.entrySet()) {
-            System.out.println("- " + entry.getKey() + ": " + entry.getValue());
+            System.out.println("- " + entry.getKey() + "        : " + entry.getValue());
         }
         System.out.println("--------------------------------------------------------------");
     }
